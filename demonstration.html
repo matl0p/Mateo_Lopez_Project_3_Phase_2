@@ -6,12 +6,19 @@
     <title>Blue Background Image</title>
     <style>
         body {
-            background-color: blue;
+            background-color: rgb(142, 31, 17);
             margin: 0;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
+        }
+
+        h1 {
+            color: white;
+            font-size: 24px;
+            margin-bottom: 20px;
         }
 
         img {
@@ -19,10 +26,12 @@
             max-height: 100%;
             height: auto;
             width: auto;
+            transform: rotate(180deg); /* Rotate the image upside down */
         }
     </style>
 </head>
 <body>
+    <h1>Demonstration</h1>
     <img src="lebron.jpeg" alt="Your Image Description">
 </body>
 </html>
